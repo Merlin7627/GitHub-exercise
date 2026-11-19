@@ -11,7 +11,14 @@ from scipy.stats import linregress
 # Read sequences
 # -----------------------------
 
-file_path = Path(__file__).resolve().with_name("input.fas")
+file_name = input("Enter the FASTA filename or path: ").strip()
+if not file_name:
+    raise ValueError("A FASTA filename or path is required.")
+
+file_path = Path(file_name).expanduser()
+if not file_path.is_absolute():
+    file_path = Path(__file__).resolve().parent / file_path
+
 if not file_path.is_file():
     raise FileNotFoundError(f"FASTA file not found: {file_path}")
 
