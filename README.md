@@ -23,6 +23,8 @@ This repository contains Python code for analysing biological sequences using Bi
 
 `pip install pandas`
 
+`pip install matplotlib`
+
 ### **Student Exercise**
 
 - **Fork a repository** <br>Navigate to https://github.com/evo-palaeo/GitHub-exercise and create a fork under your GitHub account. 
@@ -32,4 +34,3 @@ This repository contains Python code for analysing biological sequences using Bi
 - **Modify the script in the development branch** <br>Add a Python `input()` function to ask the user for a FASTA filename. After making the change, stage, commit, and push it to the development branch. 
 - **Update the main branch** <br>In the main branch, add Python code to plot Sequence Length vs Molecular Weight using matplotlib. 
 - **Merge branches** <br>Merge the development branch into the main branch, resolving any conflicts if necessary.
-
