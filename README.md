@@ -7,6 +7,7 @@ This repository contains Python code for analysing biological sequences using Bi
 | File          | Description                                           |
 |---------------|--------------------------------------------------------|
 | `translate.py` | Main script for ORF detection and translation (contains intentional bugs ⚠️) |
+| `input.fas`    | Small synthetic FASTA file for trying the script      |
 | `README.md`    | Project documentation                                |
 
 
